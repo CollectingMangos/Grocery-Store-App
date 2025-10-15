@@ -1,6 +1,6 @@
 import mysql.connector
 
-connection = mysql.connector.connect(user='root', password='ElongatedMango1103!', host='127.0.0.1',database='grocery_store')
+connection = mysql.connector.connect(user='root', password='', host='127.0.0.1',database='grocery_store')
 
 cursor = connection.cursor()
 
