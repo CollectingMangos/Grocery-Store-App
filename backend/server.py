@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 connection = get_sql_connection()
 
-@app.route("/getProducts", methods=['GET'])
+@app.route("/getProducts", methods=["GET"])
 def get_products():
     products = product_dao.get_all_products(connection)
     response = jsonify(products)
